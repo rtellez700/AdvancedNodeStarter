@@ -8,7 +8,7 @@ beforeEach(async () => {
 });
 
 afterEach(async () => {
-  await page.close(); // really calling from the `browser`
+  await page.close();
 });
 
 test("The header has the correct text", async () => {
